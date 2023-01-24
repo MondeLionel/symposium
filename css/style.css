@@ -269,7 +269,8 @@ position: relative;
   border:1px solid aliceblue;
   border-top-left-radius: 10px;
   border-top-right-radius: 10px;
-  
+  z-index: 1;
+  background-color: #03050c;
 }
 
 .phone--container::after{
@@ -295,7 +296,8 @@ position: relative;
   left:15px;
   top:10px;
   padding: 5px;
-  border-radius: 10px
+  border-radius: 10px;
+  transform: translateY(-100%);
 }
 
 .notif--message p{
