@@ -43,12 +43,15 @@ video{
 }
 
 .menu-item{
-  margin-left: 1em;
+  /*! margin-left: 4em; */
   font-size: 0.9rem;
 }
 
 .menu{
   
+  display: flex;
+  width: 40vw;
+  justify-content: space-between;
 }
 
 .logo{
@@ -121,7 +124,7 @@ video{
   display: block;
   border-radius: 5px;
   margin: 2em auto;
-  max-width: 300px;
+  /*! max-width: 300px; */
 }
 
 .session_card:hover{
